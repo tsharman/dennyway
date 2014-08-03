@@ -44,5 +44,47 @@
 					}
 				]
 		}
+	],
+	"arrow.psd" : [
+		{
+			"name" : "arrow_right",
+			"description" : "Arrow pointing right",
+			"steps" : [
+				{
+					"action" : "rotate",
+					"target" : 0
+				}	
+			]
+		},
+		{
+			"name" : "arrow_up",
+			"description" : "Arrow pointing up",
+			"steps" : [
+				{
+					"action" : "rotate",
+					"target" : 90
+				}	
+			]
+		},
+		{
+			"name" : "arrow_left",
+			"description" : "Arrow pointing left",
+			"steps" : [
+				{
+					"action" : "rotate",
+					"target" : 180
+				}	
+			]
+		},
+		{
+			"name" : "arrow_down",
+			"description" : "Arrow pointing down",
+			"steps" : [
+				{
+					"action" : "rotate",
+					"target" : 270
+				}	
+			]
+		}
 	]
 }
