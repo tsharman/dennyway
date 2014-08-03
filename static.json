@@ -32,6 +32,17 @@
 						"target" : 48
 					}
 				]
+		},
+		{
+			"name": "largeYC",
+			"description" : "200x200 Logo",
+			"steps" :
+				[
+					{
+						"action" : "scale",
+						"target" : 200
+					}
+				]
 		}
 	]
 }
