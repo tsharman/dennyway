@@ -1,0 +1,39 @@
+{
+	"Header.psd" : [
+		{
+			"name" : "header",
+			"steps" : 
+				[
+					{
+						"convert" : "png"
+					},
+					{
+						"scale" : 200
+					}
+				]
+		},
+		{
+			"name" : "hello",
+			"steps" :
+				[
+					{
+						"convert" : "jpg"
+					},
+					{
+						"scale" : 200
+					}
+				]
+		}
+	],
+	"hello.psd" : [
+		{
+			"name" : "hello",
+			"steps" :
+				[
+					{
+						"convert" : "png"
+					}
+				]
+		}
+	],
+}
