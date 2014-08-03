@@ -53,7 +53,11 @@
 				{
 					"action" : "rotate",
 					"target" : 0
-				}	
+				},
+				{
+					"action" : "scale",
+					"target" : 50
+				}
 			]
 		},
 		{
@@ -63,7 +67,11 @@
 				{
 					"action" : "rotate",
 					"target" : 90
-				}	
+				},
+				{
+					"action" : "scale",
+					"target" : 50
+				}
 			]
 		},
 		{
@@ -73,6 +81,10 @@
 				{
 					"action" : "rotate",
 					"target" : 180
+				},
+				{
+					"action" : "scale",
+					"target" : 50
 				}	
 			]
 		},
@@ -83,7 +95,11 @@
 				{
 					"action" : "rotate",
 					"target" : 270
-				}	
+				},
+				{
+					"action" : "scale",
+					"target" : 50
+				}
 			]
 		}
 	]
