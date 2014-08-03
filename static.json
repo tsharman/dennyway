@@ -1,106 +1,109 @@
-{
-	"yc.psd" : [
-		{
-			"name" : "favicon16",
-			"description" : "16x16 favicon",
-			"steps" :
-				[
+{	
+	"repo_type" : "regular",
+	"builds" : {
+		"yc.psd" : [
+			{
+				"name" : "favicon16",
+				"description" : "16x16 favicon",
+				"steps" :
+					[
+						{
+							"action" : "scale",
+							"target" : 16
+						}
+					]
+			},
+			{
+				"name" : "favicon32",
+				"description" : "32x32 favicon",
+				"steps" :
+					[
+						{
+							"action" : "scale",
+							"target" : 32
+						}
+					]
+			},
+			{
+				"name" : "favicon48",
+				"description" : "48x48 favicon",
+				"steps" :
+					[
+						{
+							"action" : "scale",
+							"target" : 48
+						}
+					]
+			},
+			{
+				"name": "largeYC",
+				"description" : "200x200 Logo",
+				"steps" :
+					[
+						{
+							"action" : "scale",
+							"target" : 200
+						}
+					]
+			}
+		],
+		"arrow.psd" : [
+			{
+				"name" : "arrow_right",
+				"description" : "Arrow pointing right",
+				"steps" : [
+					{
+						"action" : "rotate",
+						"target" : 0
+					},
 					{
 						"action" : "scale",
-						"target" : 16
+						"target" : 50
 					}
 				]
-		},
-		{
-			"name" : "favicon32",
-			"description" : "32x32 favicon",
-			"steps" :
-				[
+			},
+			{
+				"name" : "arrow_up",
+				"description" : "Arrow pointing up",
+				"steps" : [
+					{
+						"action" : "rotate",
+						"target" : 90
+					},
 					{
 						"action" : "scale",
-						"target" : 32
+						"target" : 50
 					}
 				]
-		},
-		{
-			"name" : "favicon48",
-			"description" : "48x48 favicon",
-			"steps" :
-				[
+			},
+			{
+				"name" : "arrow_left",
+				"description" : "Arrow pointing left",
+				"steps" : [
+					{
+						"action" : "rotate",
+						"target" : 180
+					},
 					{
 						"action" : "scale",
-						"target" : 48
-					}
+						"target" : 50
+					}	
 				]
-		},
-		{
-			"name": "largeYC",
-			"description" : "200x200 Logo",
-			"steps" :
-				[
+			},
+			{
+				"name" : "arrow_down",
+				"description" : "Arrow pointing down",
+				"steps" : [
+					{
+						"action" : "rotate",
+						"target" : 270
+					},
 					{
 						"action" : "scale",
-						"target" : 200
+						"target" : 50
 					}
 				]
-		}
-	],
-	"arrow.psd" : [
-		{
-			"name" : "arrow_right",
-			"description" : "Arrow pointing right",
-			"steps" : [
-				{
-					"action" : "rotate",
-					"target" : 0
-				},
-				{
-					"action" : "scale",
-					"target" : 50
-				}
-			]
-		},
-		{
-			"name" : "arrow_up",
-			"description" : "Arrow pointing up",
-			"steps" : [
-				{
-					"action" : "rotate",
-					"target" : 90
-				},
-				{
-					"action" : "scale",
-					"target" : 50
-				}
-			]
-		},
-		{
-			"name" : "arrow_left",
-			"description" : "Arrow pointing left",
-			"steps" : [
-				{
-					"action" : "rotate",
-					"target" : 180
-				},
-				{
-					"action" : "scale",
-					"target" : 50
-				}	
-			]
-		},
-		{
-			"name" : "arrow_down",
-			"description" : "Arrow pointing down",
-			"steps" : [
-				{
-					"action" : "rotate",
-					"target" : 270
-				},
-				{
-					"action" : "scale",
-					"target" : 50
-				}
-			]
-		}
-	]
+			}
+		]
+	}
 }
