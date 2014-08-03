@@ -1,12 +1,35 @@
 {
-	"hello.psd" : [
+	"yc.psd" : [
 		{
-			"name" : "hello",
+			"name" : "favicon16",
+			"description" : "16x16 favicon",
 			"steps" :
 				[
 					{
 						"action" : "scale",
-						"target" : 200
+						"target" : 16
+					}
+				]
+		},
+		{
+			"name" : "favicon32",
+			"description" : "32x32 favicon",
+			"steps" :
+				[
+					{
+						"action" : "scale",
+						"target" : 32
+					}
+				]
+		},
+		{
+			"name" : "favicon48",
+			"description" : "48x48 favicon",
+			"steps" :
+				[
+					{
+						"action" : "scale",
+						"target" : 32
 					}
 				]
 		}
