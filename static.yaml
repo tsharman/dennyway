@@ -4,11 +4,11 @@
     yc.psd:
       -
         name: "200x200"
-		description : "official logo"
-		steps:
-		  -
-		    action : "convert"
-			target : "jpg"
-		  -
-		    action : "scale"
-			target : 200
+        description : "official logo"
+        steps:
+          -
+            action : "convert"
+            target : "jpg"
+          -
+            action : "scale"
+            target : 200
