@@ -3,7 +3,7 @@
   builds:
     yc.psd:
       -
-	    name: "200x200"
+        name: "200x200"
 		description : "official logo"
 		steps:
 		  -
