@@ -7,8 +7,5 @@
         description : "official logo"
         steps:
           -
-            action : "convert"
-            target : "jpg"
-          -
             action : "scale"
             target : 200
